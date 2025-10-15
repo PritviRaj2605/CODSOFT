@@ -1,7 +1,6 @@
 import random
 mylist = ['rock', 'paper', 'scissors']
 opt = 0
-
 while opt == 0:
     ch = input('Enter rock or paper or scissors to play the game: ')
     low = ch.lower()
@@ -30,8 +29,6 @@ while opt == 0:
         print('CONGRATS YOU WIN')
     else:
         print('Invalid choice!')
-
     opt = int(input('Enter 0 to continue or 1 to exit the game: '))
-
 if opt == 1:
     print('Exiting the game.') 
